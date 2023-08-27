@@ -1,8 +1,8 @@
-//
-//  SchduleModel.swift
-//  SchduleForm
-//
-//  Created by Kelvin Gao  on 26/8/2566 BE.
-//
-
 import Foundation
+
+struct SchduleModel : Codable {
+    var date : Date
+    var name : String
+    var comment : String
+    var schdules = [SchduleModel]()
+}

@@ -13,6 +13,9 @@
 		395E09EC2A99EE5400E688CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395E09EA2A99EE5400E688CB /* Main.storyboard */; };
 		395E09EE2A99EE5600E688CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395E09ED2A99EE5600E688CB /* Assets.xcassets */; };
 		395E09F12A99EE5600E688CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395E09EF2A99EE5600E688CB /* LaunchScreen.storyboard */; };
+		395E09FC2A9A2A0300E688CB /* SchduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E09FB2A9A2A0300E688CB /* SchduleModel.swift */; };
+		395E0A002A9A327E00E688CB /* Compact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E09FF2A9A327E00E688CB /* Compact.swift */; };
+		395E0A022A9A60D100E688CB /* SchduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E0A012A9A60D100E688CB /* SchduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		395E09ED2A99EE5600E688CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395E09F02A99EE5600E688CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		395E09F22A99EE5600E688CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395E09FB2A9A2A0300E688CB /* SchduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchduleModel.swift; sourceTree = "<group>"; };
+		395E09FF2A9A327E00E688CB /* Compact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compact.swift; sourceTree = "<group>"; };
+		395E0A012A9A60D100E688CB /* SchduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		395E09E32A99EE5400E688CB /* SchduleForm */ = {
 			isa = PBXGroup;
 			children = (
+				395E09FA2A9A29ED00E688CB /* Model */,
 				395E09E42A99EE5400E688CB /* AppDelegate.swift */,
 				395E09E62A99EE5400E688CB /* SceneDelegate.swift */,
 				395E09E82A99EE5400E688CB /* ViewController.swift */,
+				395E0A012A9A60D100E688CB /* SchduleViewController.swift */,
 				395E09EA2A99EE5400E688CB /* Main.storyboard */,
 				395E09ED2A99EE5600E688CB /* Assets.xcassets */,
 				395E09EF2A99EE5600E688CB /* LaunchScreen.storyboard */,
 				395E09F22A99EE5600E688CB /* Info.plist */,
 			);
 			path = SchduleForm;
+			sourceTree = "<group>";
+		};
+		395E09FA2A9A29ED00E688CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				395E09FB2A9A2A0300E688CB /* SchduleModel.swift */,
+				395E09FF2A9A327E00E688CB /* Compact.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395E0A002A9A327E00E688CB /* Compact.swift in Sources */,
+				395E0A022A9A60D100E688CB /* SchduleViewController.swift in Sources */,
+				395E09FC2A9A2A0300E688CB /* SchduleModel.swift in Sources */,
 				395E09E92A99EE5400E688CB /* ViewController.swift in Sources */,
 				395E09E52A99EE5400E688CB /* AppDelegate.swift in Sources */,
 				395E09E72A99EE5400E688CB /* SceneDelegate.swift in Sources */,
@@ -295,6 +315,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
